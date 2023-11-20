@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/landing" }
+      { "source": "/(.*)", "destination": "http://localhost:3030/landing" }
     ]
   }
   

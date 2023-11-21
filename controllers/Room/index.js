@@ -72,8 +72,8 @@ const getRoomByUser = async (req, res) => {
   }
 };
 
-// to check for validity and render 👇🏻
-// <--------- chat room ---------> 👈🏻
+// to check for validity and render 
+// <--------- chat room ---------> 
 const chatRoomMW = async (req, res) => {
   try {
     const room = await Room.findOne({ roomID: req.params.room });

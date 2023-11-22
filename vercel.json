@@ -2,11 +2,6 @@
   "routes": [
       {
         "src": "/(.*)",
-        "dest": "/home"
-      },
-      {
-        "src": "/",
-        "dest": "/home"
-      }
+        "dest": "/"
   ]
 }
